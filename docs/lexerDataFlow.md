@@ -2,11 +2,7 @@
 
 This document details the internal mechanics of the `CMDLEX` system, focusing on how data is passed between the context container and the logic engine.
 
-### 1. Diagram
-
-
-
-### 2. The Data Loop
+### 1. The Data Loop
 
 The lexer operates on a **Request-Evaluate-Update** cycle. Here is how data moves through the classes:
 
